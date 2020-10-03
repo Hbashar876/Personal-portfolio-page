@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../ground.jpj.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li. a{
+	background-color: #fff;
+	color: #000;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top: 57%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding:10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.about h1{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.services h1{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #00ff2f;
+}
+.services h3{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+
+.button1{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.logo h2{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+	color: #fff;
+	font-family: Century Gothic;
+	position: absolute;
+}
+.about h2{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #00ff2f;
+}
+.img img{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	border: 2px solid #000;
+}
+.mms img{
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	border: 2px solid #000;
+}
+.img h3{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.img3 img{
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	border: 2px solid #000;
+}
+.img4 img{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	border: 2px solid #000;
+}
+.img3 h3{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.btn2 {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn3{
+	border: 1px solid #fff;
+	padding:10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease
+}
+.btn3:hover{
+	background-color: #fff;
+	color: #000;
+}
+.contact a{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	transition: 0.6s ease
+}
+.contact a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.gmail a{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	transition: 0.6s ease
+}
+.gmail a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.sourcecode a{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	transition: 0.6s ease
+}
+.sourcecode a:hover{
+	background-color: #fff;
+	color: #000;
+}
