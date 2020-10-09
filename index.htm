@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+  ::selection {
+    color: black;
+    background-color: yellow;
+  }
+  </style>
+  <link rel="stylesheet" href="/src/theme/PageProperties.css">
+  <link rel="stylesheet" href="/src/theme/ContentContainerProperties.css">
+  <link rel="stylesheet" href="/src/theme/HeaderProperties.css">
+  <link rel="stylesheet" href="/src/theme/TextProperties.css">
+  <link rel="stylesheet" href="/src/css/index-style.css">
+  <link rel="stylesheet" href="/src/theme/ImageProperties.css">
+  <link rel="stylesheet" href="/src/theme/FooterProperties.css">
+  <!--javascript modules-->
+  <script src="/src/js/index.js"></script>
+  <script src="/src/js/redirection/socialMediaLinks.js"></script>
+  <title>Yash Sehgal | Portfolio</title>
+</head>
+<body>
+  <div id="header-section" class="header">
+    <p id="logo" class="header-logo" onclick=""><a href="#" class="non-decorated-link">Yash Sehgal</a></p>
+    <p id="settings" class="header-option-text" onclick="">Settings</p>
+    <p id="contact-me" class="header-option-text" onclick="redirectToContactMePage();">Contact Me</p>
+    <p id="resume" class="header-option-text">Resume</p>
+    <p id="projects" class="header-option-text" onclick="">Projects</p>
+    <p id="home" class="header-option-text" onclick="">Home</p>
+  </div>
+  <br>
+  <div id="content-01">
+    <p id="headline-text" class="headline-massive-text">Hey, There! Yash <br>Sehgal this side</p>
+    <p id="skills" class="sub-heading-text">Software Developer | UI Designer | Computer Science Student</p>
+  </div>
+  <div id="image-container-01">
+    <!-- <img src="/src/assets/design-assets/Rectangle 1.png" alt="bg-rect" id="bg-rect">
+    <br>
+    <img src="/src/assets/photo-1504639725590-34d0984388bd.jpg" alt="code-image" id="techy-image" class="image-right-corner"> -->
+    <!-- <br> -->
+    <img src="/src/assets/open-peeps (2).png" alt="human-image" id="human-image" class="image-right-corner">
+  </div>
+
+  <!--about me section-->
+  <div id="about-me">
+    <p id="title" class="massive-text massive-hover-underline">About Me</p>
+    <p id="about-me-desc" class="description-text">Currently, I am a student. In the last couple of years, I have worked with various
+      technologies. Mostly, my work is <br> related to UI/UX Designing and Software Development. I have also worked with Data
+      Visualization techniques using <br> Python language. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos dolor minus sunt eligendi fugiat fuga <br> 
+      nostrum repellat nesciunt, voluptatibus minima distinctio iusto aliquam sequi reiciendis. Omnis hic harum distinctio? <br> 
+      Obcaecati, ex ipsa? Deserunt nihil repellendus eveniet blanditiis dicta quos! Quasi exercitationem esse ex, et culpa <br>
+      expedita harum molestiae delectus rem cumque ad illo officia facilis impedit obcaecati vero consequatur rerum aliquid! <br> 
+      Quae doloribus similique autem a quo architecto vitae suscipit voluptates dolor, officia deserunt quas ipsa error animi <br> 
+      vero et earum ex? Repudiandae illo officia deserunt mollitia dolorem, totam magni soluta nesciunt consectetur <br> 
+      maiores maxime commodi debitis, adipisci facere quos.</p>
+  </div>
+  <!-- <br><br><br><br><br><br> -->
+  <div id="education-content">
+    <p id="edu-title" class="massive-text massive-hover-underline">Education</p>
+    <div id="college-details">
+      <p id="college-name" class="heading-text hover-underline">Medicaps University, Indore</p>
+      <p id="course-name" class="sub-heading-text">Bachelors of Technology in Computer Science (Specialization in Artificial Intelligence)</p>
+      <p id="course-duration" class="sub-heading-text">Duration: 2020 - 2024 (Current University)</p>
+      <p id="college-website-link" class="clickable-text link-hover-underline" onclick="redirectToCollegeWebsite();">Visit Website</p>
+    </div>
+    <div id="school-details">
+      <p id="school-name" class="heading-text hover-underline">Guru Harkrishan Public School, Indore</p>
+      <p id="high-school-subject" class="sub-heading-text">Mathematics, Physics and Chemistry (Science Stream) CBSE</p>
+      <p id="high-school-opt-subject" class="sub-heading-text">Secondary Subject: Computer Science</p>
+      <p id="high-school-score" class="sub-heading-text">Grade (A)</p>
+      <p id="school-course-duration" class="sub-heading-text">Duration: 2018 - 2020</p>
+      <p id="school-website-link" class="clickable-text link-hover-underline" onclick="redirectToSchoolWebsite();">Visit Website</p>
+    </div>
+  </div>
+  <div id="skills-content">
+    <p id="skill-content-title" class="massive-text massive-hover-underline">Skills</p>
+    <div id="skill-cpp">
+      <p id="skill-name" class="heading-text hover-underline">C++</p>
+      <p id="skill-experience" class="sub-heading-text">Intermediate</p>
+    </div>
+    <div id="skill-python">
+      <p id="skill-name" class="heading-text hover-underline">Python</p>
+      <p id="skill-experience" class="sub-heading-text">Intermediate</p>
+    </div>
+    <div id="skill-ui-design">
+      <p id="skill-name" class="heading-text hover-underline">UI Designing</p>
+      <p id="skill-experience" class="sub-heading-text">Professional</p>
+    </div>
+    <div id="skill-web-frontend">
+      <p id="skill-name" class="heading-text hover-underline">Frontend (HTML/CSS/Javascript)</p>
+      <p id="skill-experience" class="sub-heading-text">Beginner Level</p>
+    </div>
+  </div>
+  <div id="tools">
+    <p id="tools-content-title" class="massive-text massive-hover-underline ">Tools</p>
+    <div id="tool-01">
+      <p id="tool-name" class="heading-text hover-underline">Adobe XD, Figma</p>
+      <p id="tool-type" class="sub-heading-text">UI/UX Designing</p>
+    </div>
+    <div id="tool-02">
+      <p id="tool-name" class="heading-text hover-underline">Git and Github</p>
+      <p id="tool-type" class="sub-heading-text">Version Controlling for Projects</p>
+    </div>
+    <div id="tool-03">
+      <p id="tool-name" class="heading-text hover-underline">Visual Studio Code, Sublime Text, Atom</p>
+      <p id="tool-type" class="sub-heading-text">Software Development, Frontend Development, General Coding</p>
+    </div>
+  </div>
+  <div id="experience-section">
+    <p id="exp-content-title" class="massive-text massive-hover-underline">Work Experience</p>
+    <div id="work-exp-01">
+      <p id="work-exp-01" class="heading-text hover-underline">User Interface and Experience Designer</p>
+      <p id="work-desc" class="sub-heading-text">At HeyCalls by HeyTech IT Services | <b>Internship</b></p>
+      <!-- <p id="work-type" class="sub-heading-text"><b>Internship</b></p> -->
+      <p id="job-desc" class="sub-heading-text">
+        <b>About My Role:</b> During this job, I have designed user interfaces for applications and webpages. My role is to design <br>
+        an optimal user experience throughout the application. I have used various designing technologies like <br>
+        Adobe XD, InVision, Figma for Logo Designing etc.
+      </p>
+    </div>
+  </div>
+  <!-- <div id="projects-section">
+    <p id="project-section-title" class="massive-text massive-hover-underline">Projects</p>
+  </div> -->
+  <div id="hobbies-section">
+    <p id="hobbies-section-title" class="massive-text massive-hover-underline">Hobbies</p>
+    <div id="hobby-01">
+      <p id="hobby-name" class="heading-text hover-underline">Designing</p>
+      <p id="hobby-desc" class="sub-heading-text">UI/UX Designing, AutoCAD, Product Designing</p>
+    </div>
+    <div id="hobby-02">
+      <p id="hobby-name" class="heading-text hover-underline">Data Visualization</p>
+      <p id="hobby-desc" class="sub-heading-text">Using Python libraries like Matplotlib, Numpy, Pandas, SciPy</p>
+    </div>
+    <!-- <div id="hobby-03">
+      <p id="hobby-name" class="heading-text hover-underline">***HobbyName***</p>
+      <p id="hobby-desc" class="heading-text">***DescriptionText***</p>
+    </div> -->
+  </div>
+  <div id="contact-details-section">
+    <p id="contact-details-title" class="massive-text massive-hover-underline">Contact Details</p>
+    <div id="email-address-section">
+      <p id="contact-detail-name" class="heading-text hover-underline">Email Address</p>
+      <p id="email-address" class="sub-heading-text">
+        <a href="mailto:yashsehgal.work@gmail.com" class="non-decorated-link">yashsehgal.work@gmail.com</a>
+      </p>
+    </div>
+    <div id="phone-number-section">
+      <p id="contact-detail-name" class="heading-text hover-underline">Phone Number</p>
+      <p id="phone-number" class="sub-heading-text">
+        <a href="tel:+919826544591" class="non-decorated-link">+91 98265-44591</a>
+      </p>
+    </div>
+    <div id="geo-location-section">
+      <p id="geo-location-name" class="heading-text hover-underline">Geographical Location</p>
+      <p id="geo-location" class="sub-heading-text">
+        Indore, Madhya Pradesh, India (452002)
+      </p>
+    </div>
+    <div id="linkedin-profile-section">
+      <p id="linkedin-profile-name" class="heading-text hover-underline">LinkedIn Profile</p>
+      <p id="linkedin-profile" class="sub-heading-text" onclick="redirectToLinkedInProfile();">
+          <b>@Yash Sehgal</b>
+        on Linkedin
+      </p>
+    </div>
+    <div id="get-more-details">
+      <p id="more-contact-details-button" class="clickable-text link-hover-underline" onclick="redirectToContactMePage();">Get more details</p>
+    </div>
+  </div>
+  <div id="footer-section" class="footer">
+    <!-- //footer section -->
+    <div id="footer-container-01">
+      <div id="container" class="container">
+        <p id="container-title" class="container-title">Direct Links (Site Map)</p>
+        <div id="container-options" class="container-options">
+          <p id="home-option" class="container-option-text">Home</p>
+          <p id="projects-option" class="container-option-text">Projects</p>
+          <p id="resume-option" class="container-option-text">Resume</p>
+          <p id="contact-option" class="container-option-text">Contact Me</p>
+          <p id="settings-option" class="container-option-text">Settings</p>
+        </div>   <!--closing container-options-->
+      </div>  <!--closing container-->
+    </div>  <!--closing footer-container-01-->
+    <div id="footer-container-02">
+      <div id="container" class="container">
+        <p id="container-title" class="container-title">Social Media Links</p>
+        <div id="container-options" class="container-options">
+          <p id="linkedin-option" class="container-option-text" onclick="redirectToLinkedInProfile();">LinkedIn</p>
+          <p id="instagram-option" class="container-option-text" onclick="redirectToInstagramProfile();">Instagram</p>
+          <!-- <p id="facebook-option" class="container-option-text" onclick="">Facebook</p> -->
+          <p id="whatsapp-option" class="container-option-text">WhatsApp |  
+            <a href="tel:+919826544591" class="non-decorated-link">
+            +91 98265-44591
+            </a>
+          </p>
+          <p id="twitter-option" class="container-option-text" onclick="redirectToTwitterProfile();">Twitter</p>
+          <p id="reddit-option" class="container-option-text" onclick="redirectToRedditProfile();">Reddit</p>
+        </div>   <!--closing container-options-->
+      </div>  <!--closing container-->
+    </div>  <!--closing footer-container-01-->
+
+
+    <!--
+
+      =====================NOTE=================================================
+      This content section is currently commented.
+      Content will be activated after performing complete development and tests.
+
+      Options for this section are currently not defined in the code and external
+      link sources are also not available.
+    -->
+    <!-- <div id="footer-container-03">
+      <div id="container" class="container">
+        <p id="container-title" class="container-title">Direct Links (Site Map)</p>
+        <div id="container-options" class="container-options">
+          <p id="home-option" class="container-option-text">Home</p>
+          <p id="projects-option" class="container-option-text">Projects</p>
+          <p id="resume-option" class="container-option-text">Resume</p>
+          <p id="contact-option" class="container-option-text">Contact Me</p>
+          <p id="settings-option" class="container-option-text">Settings</p>
+        </div>   closing container-options
+      </div>  closing container
+    </div>  closing footer-container-01 -->
+    <!--============NOTE ENDS HERE===================================================================-->
+
+
+    <!--bottom tagline-->
+    <div id="bottom-tagline">
+      <p id="tagline-text">
+        Developed by, 
+        <a href="#" target="_blank" rel="noopener noreferrer" class="non-decorated-link">
+          <b>Yash Sehgal</b>
+        </a>
+      </p>
+    </div>
+  </div> <!--closing footer-section-->
+</body>
+</html>
